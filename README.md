@@ -1,2 +1,2 @@
-# mozidev-test
+# test
 test task
