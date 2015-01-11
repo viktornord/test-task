@@ -4,6 +4,9 @@ header, main, footer, aside, section, figure, time, article, nav {
 }
 /*----------------------------------------------------------------------------------*/
 
+.wrapper {
+    overflow: hidden;
+}
 .mainContent {
     position: relative;
 }
