@@ -85,7 +85,7 @@ $(document).ready(function () {
         if ($(this).find('.ui-slider-label').data('value') + timeLine.getYearsOnPage() - 1 > endYear) {
             setTimeout(function () {
                 $slider.slider('value', endYear - timeLine.getYearsOnPage() + 1);
-            }, 100)
+            }, 250)
         }
     });
 
