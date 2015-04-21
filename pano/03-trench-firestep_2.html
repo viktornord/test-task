@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		
+		<script type="text/javascript" src="swfobject.js">
+		</script>
+		<script type="text/javascript">
+			function hideUrlBar() {
+				// hide URL field on the iPhone/iPod touch
+				var p = String(navigator.platform);
+	
+				container = document.getElementById("container");
+				if( p === 'iPad' || p === 'iPhone' || p === 'iPod touch' ){
+					var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+					if (parseInt(v[1], 10)>=7) {
+						// iOS >=7
+						if (container) {
+							container.style.top=(0) + "px";
+							container.style.left=(0) + "px";
+							container.style.width=(window.innerWidth) + "px";
+							container.style.height=(window.innerHeight) + "px";
+							if (pano) {
+								pano.setViewerSize(window.innerWidth, window.innerHeight);
+							}						}
+						window.scrollTo(0, 0);
+					} else {
+						if (container) {
+							var cheight;
+							switch(window.innerHeight) {
+								case 208:cheight=268; break; // landscape
+								case 260:cheight=320; break; // landscape, fullscreen
+								case 336:cheight=396; break; // portrait, in call status bar
+								case 356:cheight=416; break; // portrait 
+								case 424:cheight=484; break; // portrait iPhone5, in call status bar
+								case 444:cheight=504; break; // portrait iPhone5 
+								default: cheight=window.innerHeight;
+							}
+							if ((cheight) && ((container.offsetHeight!=cheight) || (window.innerHeight!=cheight))) {
+								container.style.height=cheight + "px";
+							}
+						}
+						document.getElementsByTagName("body")[0].style.marginTop="1px";
+						window.scrollTo(0, 1);
+					}
+				}
+			}            
+			if (window.addEventListener) {
+				window.addEventListener("load", hideUrlBar);
+				window.addEventListener("resize", hideUrlBar);
+				window.addEventListener("orientationchange", hideUrlBar);
+			}
+	
+		</script>
+		<style type="text/css" title="Default">
+			body, div, h1, h2, h3, span, p {
+				font-family: Verdana,Arial,Helvetica,sans-serif;
+				color: #000000; 
+			}
+			/* fullscreen */
+			html {
+				height:100%;
+			}
+			body {
+				height:100%;
+				margin: 0px;
+				overflow:hidden; /* disable scrollbars */
+			}
+			body {
+			  font-size: 10pt;
+			  background : #ffffff; 
+			}
+			table,tr,td {
+				font-size: 10pt;
+				border-color : #777777;
+				background : #dddddd; 
+				color: #000000; 
+				border-style : solid;
+				border-width : 2px;
+				padding: 5px;
+				border-collapse:collapse;
+			}
+			h1 {
+				font-size: 18pt;
+			}
+			h2 {
+				font-size: 14pt;
+			}
+			.warning { 
+				font-weight: bold;
+			} 
+			/* fix for scroll bars on webkit & Mac OS X Lion */ 
+			::-webkit-scrollbar {
+				background-color: rgba(0,0,0,0.5);
+				width: 0.75em;
+			}
+			::-webkit-scrollbar-thumb {
+    			background-color:  rgba(255,255,255,0.5);
+			}
+		</style>	
+	</head>
+	<body>
+		<script type="text/javascript" src="pano2vr_player.js">
+		</script>
+		<script type="text/javascript" src="skin.js">
+		</script>
+		<div id="container" style="width:100%;height:100%;">
+		This content requires HTML5/CSS3, WebGL, or Adobe Flash Player Version 9 or higher.
+		</div>
+		<script type="text/javascript">
+	
+		// check for CSS3 3D transformations and WebGL
+		if (ggHasHtml5Css3D() || ggHasWebGL()) {
+		// use HTML5 panorama
+	
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("container");
+			// add the skin object
+			skin=new pano2vrSkin(pano);
+			// load the configuration
+			panorama='<?xml version="1.0" encoding="UTF-8"?>';
+			panorama+='<tour start="node1">';
+			panorama+='  <panorama id="node1" hideabout="1">';
+			panorama+='    <view fovmode="3" pannorth="0">';
+			panorama+='      <start pan="0" fov="91.3085" tilt="0"/>';
+			panorama+='      <min pan="0" fov="5" tilt="-90"/>';
+			panorama+='      <max pan="360" fov="120" tilt="90"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>';
+			panorama+='    <hotspots width="180" height="0" wordwrap="1">';
+			panorama+='      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xffffff" bordercolor="0xffffff" border="1" textcolor="0xffffff" background="0" borderalpha="1" borderradius="11" wordwrap="1" textalpha="1"/>';
+			panorama+='      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>';
+			panorama+='      <hotspot title="&lt;b>Soldier&#39;s Kit&lt;/b>&lt;br>&lt;b>Cit y Milwr&lt;/b>" target="" pan="-8.44873" skinid="simplex1" url="" id="SoldiersKit" tilt="6.76202"/>';
+			panorama+='      <hotspot title="&lt;b>Flares&lt;/b>&lt;br>&lt;b>Fflachiadau&lt;/b>" target="" pan="11.6327" skinid="simplex1" url="" id="Flares" tilt="16.2234"/>';
+			panorama+='      <hotspot title="&lt;b>Wire Cutters&lt;/b>&lt;br>&lt;b>Torwyr Gwifrau&lt;/b>" target="" pan="75.9674" skinid="simplex1" url="" id="Wirecutters" tilt="8.11793"/>';
+			panorama+='      <hotspot title="&lt;b>Water Can&lt;/b>&lt;br>&lt;b>Can Dwr&lt;/b>" target="" pan="-9.6544" skinid="simplex1" url="" id="WaterCan" tilt="-11.4757"/>';
+			panorama+='      <hotspot title="&lt;b>Cooking Stove&lt;/b>&lt;br>&lt;b>Ffwrn Goginio&lt;/b>" target="" pan="-93.7592" skinid="simplex1" url="" id="Cooker" tilt="-10.6737"/>';
+			panorama+='      <hotspot title="&lt;b>Trench food&lt;/b>&lt;br>&lt;b>Bwyd y Ffosydd&lt;/b>" target="" pan="-127.02" skinid="simplex1" url="" id="Food" tilt="3.30959"/>';
+			panorama+='      <hotspot title="&lt;b>Trench&lt;/b>&lt;br>&lt;b>Ffos&lt;/b>" target="103/-1.5/80" pan="-26.4721" skinid="" url="{node2}" id="02-trench_o" tilt="-1.83275"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <input tile0url="images/03-trench-firestep_o_o_0.jpg" prev5url="images/03-trench-firestep_o_o_preview_5.jpg" prev4url="images/03-trench-firestep_o_o_preview_4.jpg" prev3url="images/03-trench-firestep_o_o_preview_3.jpg" prev2url="images/03-trench-firestep_o_o_preview_2.jpg" prev1url="images/03-trench-firestep_o_o_preview_1.jpg" prev0url="images/03-trench-firestep_o_o_preview_0.jpg" tile5url="images/03-trench-firestep_o_o_5.jpg" tilesize="1440" tile4url="images/03-trench-firestep_o_o_4.jpg" tile3url="images/03-trench-firestep_o_o_3.jpg" tilescale="1.006944" tile2url="images/03-trench-firestep_o_o_2.jpg" tile1url="images/03-trench-firestep_o_o_1.jpg">';
+			panorama+='      <preview color="0x808080"/>';
+			panorama+='    </input>';
+			panorama+='    <altinput tile0url="images/03-trench-firestep_o_o_960_0.jpg" screensize="1024" tile5url="images/03-trench-firestep_o_o_960_5.jpg" tilesize="960" tile4url="images/03-trench-firestep_o_o_960_4.jpg" tile3url="images/03-trench-firestep_o_o_960_3.jpg" tilescale="1.006944" tile2url="images/03-trench-firestep_o_o_960_2.jpg" tile1url="images/03-trench-firestep_o_o_960_1.jpg"/>';
+			panorama+='    <altinput tile0url="images/03-trench-firestep_o_o_400_0.jpg" screensize="500" tile5url="images/03-trench-firestep_o_o_400_5.jpg" tilesize="400" tile4url="images/03-trench-firestep_o_o_400_4.jpg" tile3url="images/03-trench-firestep_o_o_400_3.jpg" tilescale="1.006944" tile2url="images/03-trench-firestep_o_o_400_2.jpg" tile1url="images/03-trench-firestep_o_o_400_1.jpg"/>';
+			panorama+='    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>';
+			panorama+='  </panorama>';
+			panorama+='  <panorama id="node2" hideabout="1">';
+			panorama+='    <view fovmode="3" pannorth="0">';
+			panorama+='      <start pan="0" fov="96.4183" tilt="0"/>';
+			panorama+='      <min pan="0" fov="5" tilt="-90"/>';
+			panorama+='      <max pan="360" fov="120" tilt="90"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>';
+			panorama+='    <hotspots width="180" height="0" wordwrap="1">';
+			panorama+='      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xffffff" bordercolor="0xffffff" border="1" textcolor="0xffffff" background="0" borderalpha="1" borderradius="11" wordwrap="1" textalpha="1"/>';
+			panorama+='      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>';
+			panorama+='      <hotspot title="&lt;b>Hand Grenades&lt;/b>&lt;br>&lt;b>Bomiau Llaw&lt;/b>" target="" pan="-5.95079" skinid="simplex1" url="" id="Handgrenade" tilt="-13.6925"/>';
+			panorama+='      <hotspot title="&lt;b>Lee-Enfield Rifle&lt;/b>&lt;br>&lt;b>Reiffl Lee-Enfield&lt;/b>" target="" pan="-16.8192" skinid="simplex1" url="" id="Rifle" tilt="-6.26341"/>';
+			panorama+='      <hotspot title="&lt;b>Ammunition Box&lt;/b>&lt;br>&lt;b>Blwch bwledi&lt;/b>" target="" pan="95.6924" skinid="simplex1" url="" id="Ammunition" tilt="-8.33747"/>';
+			panorama+='      <hotspot title="&lt;b>Dugout&lt;/b>&lt;br>&lt;b>Cloddfa&lt;/b>" target="" pan="-130.196" skinid="simplex1" url="" id="Dugout" tilt="4.76947"/>';
+			panorama+='      <hotspot title="&lt;b>Firestep&lt;/b>&lt;br>&lt;b>Gris Tanio&lt;/b>" target="350/-7.5/80" pan="106.975" skinid="" url="{node1}" id="Firestep" tilt="2.21251"/>';
+			panorama+='      <hotspot title="&lt;b>Gas Alarm&lt;/b>&lt;br>&lt;b>Larwm Nwy&lt;/b>" target="" pan="28.1509" skinid="simplex1" url="" id="GasAlarm" tilt="37.0503"/>';
+			panorama+='      <hotspot title="&lt;b>Officer&#39;s Dugout&lt;/b>&lt;br>&lt;b>Gloddfa&#8217;r Swyddogion&lt;/b>" target="" pan="-31.9915" skinid="" url="{node3}" id="OfficersDugout" tilt="-8.29248"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <input tile0url="images/02-trench_o_o_0.jpg" prev5url="images/02-trench_o_o_preview_5.jpg" prev4url="images/02-trench_o_o_preview_4.jpg" prev3url="images/02-trench_o_o_preview_3.jpg" prev2url="images/02-trench_o_o_preview_2.jpg" prev1url="images/02-trench_o_o_preview_1.jpg" prev0url="images/02-trench_o_o_preview_0.jpg" tile5url="images/02-trench_o_o_5.jpg" tilesize="1440" tile4url="images/02-trench_o_o_4.jpg" tile3url="images/02-trench_o_o_3.jpg" tilescale="1.006944" tile2url="images/02-trench_o_o_2.jpg" tile1url="images/02-trench_o_o_1.jpg">';
+			panorama+='      <preview color="0x808080"/>';
+			panorama+='    </input>';
+			panorama+='    <altinput tile0url="images/02-trench_o_o_960_0.jpg" screensize="1024" tile5url="images/02-trench_o_o_960_5.jpg" tilesize="960" tile4url="images/02-trench_o_o_960_4.jpg" tile3url="images/02-trench_o_o_960_3.jpg" tilescale="1.006944" tile2url="images/02-trench_o_o_960_2.jpg" tile1url="images/02-trench_o_o_960_1.jpg"/>';
+			panorama+='    <altinput tile0url="images/02-trench_o_o_400_0.jpg" screensize="500" tile5url="images/02-trench_o_o_400_5.jpg" tilesize="400" tile4url="images/02-trench_o_o_400_4.jpg" tile3url="images/02-trench_o_o_400_3.jpg" tilescale="1.006944" tile2url="images/02-trench_o_o_400_2.jpg" tile1url="images/02-trench_o_o_400_1.jpg"/>';
+			panorama+='    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>';
+			panorama+='  </panorama>';
+			panorama+='  <panorama id="node3" hideabout="1">';
+			panorama+='    <view fovmode="3" pannorth="0">';
+			panorama+='      <start pan="0" fov="96.4183" tilt="0"/>';
+			panorama+='      <min pan="0" fov="5" tilt="-90"/>';
+			panorama+='      <max pan="360" fov="120" tilt="90"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>';
+			panorama+='    <hotspots width="180" height="0" wordwrap="1">';
+			panorama+='      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xffffff" bordercolor="0xffffff" border="1" textcolor="0xffffff" background="0" borderalpha="1" borderradius="11" wordwrap="1" textalpha="1"/>';
+			panorama+='      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>';
+			panorama+='      <hotspot title="&lt;b>Magnifying Glass&lt;/b>&lt;br>&lt;b>Chwyddwydr&lt;/b>" target="" pan="-71.7262" skinid="simplex1" url="" id="MagnifyingGlass" tilt="-28.1539"/>';
+			panorama+='      <hotspot title="&lt;b>Bunk Bed&lt;/b>&lt;br>&lt;b>Gwely Bync&lt;/b>" target="" pan="6.63097" skinid="simplex1" url="" id="Bunk" tilt="0.54515"/>';
+			panorama+='      <hotspot title="&lt;b>Rum&lt;/b>&lt;br>&lt;b>Rym&lt;/b>" target="" pan="90.7894" skinid="simplex1" url="" id="Rum" tilt="-34.6186"/>';
+			panorama+='      <hotspot title="&lt;b>Trench Food&lt;/b>&lt;br>&lt;b>Bwyd y Ffosydd&lt;/b>" target="" pan="113.749" skinid="simplex1" url="" id="Food" tilt="-23.7756"/>';
+			panorama+='      <hotspot title="&lt;b>Tobacco Tin&lt;/b>&lt;br>&lt;b>Tin Baco&lt;/b>" target="" pan="-50.7012" skinid="simplex1" url="" id="Tobacco" tilt="-28.9351"/>';
+			panorama+='      <hotspot title="&lt;b>Trench&lt;/b>&lt;br>&lt;b>Ffos&lt;/b>" target="" pan="74.4028" skinid="" url="{node2}" id="Trench" tilt="0.157506"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <input tile0url="images/01-dugout_o_o_0.jpg" prev5url="images/01-dugout_o_o_preview_5.jpg" prev4url="images/01-dugout_o_o_preview_4.jpg" prev3url="images/01-dugout_o_o_preview_3.jpg" prev2url="images/01-dugout_o_o_preview_2.jpg" prev1url="images/01-dugout_o_o_preview_1.jpg" prev0url="images/01-dugout_o_o_preview_0.jpg" tile5url="images/01-dugout_o_o_5.jpg" tilesize="1440" tile4url="images/01-dugout_o_o_4.jpg" tile3url="images/01-dugout_o_o_3.jpg" tilescale="1.006944" tile2url="images/01-dugout_o_o_2.jpg" tile1url="images/01-dugout_o_o_1.jpg">';
+			panorama+='      <preview color="0x808080"/>';
+			panorama+='    </input>';
+			panorama+='    <altinput tile0url="images/01-dugout_o_o_960_0.jpg" screensize="1024" tile5url="images/01-dugout_o_o_960_5.jpg" tilesize="960" tile4url="images/01-dugout_o_o_960_4.jpg" tile3url="images/01-dugout_o_o_960_3.jpg" tilescale="1.006944" tile2url="images/01-dugout_o_o_960_2.jpg" tile1url="images/01-dugout_o_o_960_1.jpg"/>';
+			panorama+='    <altinput tile0url="images/01-dugout_o_o_400_0.jpg" screensize="500" tile5url="images/01-dugout_o_o_400_5.jpg" tilesize="400" tile4url="images/01-dugout_o_o_400_4.jpg" tile3url="images/01-dugout_o_o_400_3.jpg" tilescale="1.006944" tile2url="images/01-dugout_o_o_400_2.jpg" tile1url="images/01-dugout_o_o_400_1.jpg"/>';
+			panorama+='    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>';
+			panorama+='  </panorama>';
+			panorama+='</tour>';
+			panorama+='';
+			pano.readConfigString(panorama);
+			// hide the URL bar on the iPhone
+			setTimeout(function() { hideUrlBar(); }, 10);
+		} else 
+		if (swfobject.hasFlashPlayerVersion("10.0.0")) {
+			var flashvars = {};
+			var params = {};
+			// enable javascript interface
+			flashvars.externalinterface="1";
+			params.quality = "high";
+			params.bgcolor = "#ffffff";
+			params.allowscriptaccess = "sameDomain";
+			params.allowfullscreen = "true";
+			var attributes = {};
+			attributes.id = "pano";
+			attributes.name = "pano";
+			attributes.align = "middle";
+			swfobject.embedSWF(
+				"../03-trench-firestep_2_out.swf", "container", 
+				"100%", "100%",
+				"9.0.0", "", 
+				flashvars, params, attributes);
+			
+		}
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+	</body>
+</html>
