@@ -1,17 +1,17 @@
 <skin marginleft="0" marginright="0" margintop="0" marginbottom="0" ><element x="-142" y="-65" anchor="7" width="286" height="50" id="controller" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="0" >
-<element x="25" y="-5" anchor="0" width="32" height="32" id="up" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/up.png" overurl="images/up__o.png" >
+<element x="25" y="-5" anchor="0" width="32" height="32" id="up" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="skin images/up.png" overurl="skin images/up__o.png" >
 <action src="pressed" type="tiltup" value="" value2="" target="$self" />
 </element>
-<element x="25" y="25" anchor="0" width="32" height="32" id="down" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/down.png" overurl="images/down__o.png" >
+<element x="25" y="25" anchor="0" width="32" height="32" id="down" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="skin images/down.png" overurl="skin images/down__o.png" >
 <action src="pressed" type="tiltdown" value="" value2="" target="$self" />
 </element>
-<element x="0" y="10" anchor="0" width="32" height="32" id="left" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/left.png" overurl="images/left__o.png" >
+<element x="0" y="10" anchor="0" width="32" height="32" id="left" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="skin images/left.png" overurl="skin images/left__o.png" >
 <action src="pressed" type="panleft" value="" value2="" target="$self" />
 </element>
-<element x="50" y="10" anchor="0" width="32" height="32" id="right" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/right.png" overurl="images/right__o.png" >
+<element x="50" y="10" anchor="0" width="32" height="32" id="right" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="skin images/right.png" overurl="skin images/right__o.png" >
 <action src="pressed" type="panright" value="" value2="" target="$self" />
 </element>
-<element x="90" y="10" anchor="0" width="32" height="32" id="zoomin" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/zoomin.png" overurl="images/zoomin__o.png" >
+<element x="90" y="10" anchor="0" width="32" height="32" id="zoomin" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="skin images/zoomin.png" overurl="skin images/zoomin__o.png" >
 <action src="pressed" type="zoomin" value="" value2="" target="$self" />
 <action src="enter" type="show" value="" value2="" target="tt_zoomin" />
 <action src="leave" type="hide" value="" value2="" target="tt_zoomin" />
@@ -20,7 +20,7 @@
 </element>
 </element>
 </element>
-<element x="120" y="10" anchor="0" width="32" height="32" id="zoomout" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/zoomout.png" overurl="images/zoomout__o.png" >
+<element x="120" y="10" anchor="0" width="32" height="32" id="zoomout" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="skin images/zoomout.png" overurl="skin images/zoomout__o.png" >
 <action src="pressed" type="zoomout" value="" value2="" target="$self" />
 <action src="enter" type="show" value="" value2="" target="tt_zoomout" />
 <action src="leave" type="hide" value="" value2="" target="tt_zoomout" />
@@ -29,7 +29,7 @@
 </element>
 </element>
 </element>
-<element x="160" y="10" anchor="0" width="32" height="32" id="autorotate" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/autorotate.png" overurl="images/autorotate__o.png" >
+<element x="160" y="10" anchor="0" width="32" height="32" id="autorotate" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="skin images/autorotate.png" overurl="skin images/autorotate__o.png" >
 <action src="click" type="toogleautorotate" value="" value2="" target="$self" />
 <action src="enter" type="show" value="" value2="" target="tt_autorotate" />
 <action src="leave" type="hide" value="" value2="" target="tt_autorotate" />
@@ -38,7 +38,7 @@
 </element>
 </element>
 </element>
-<element x="190" y="10" anchor="0" width="32" height="32" id="info" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/info.png" overurl="images/info__o.png" >
+<element x="190" y="10" anchor="0" width="32" height="32" id="info" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="skin images/info.png" overurl="skin images/info__o.png" >
 <action src="click" type="tooglevisible" value="" value2="" target="userdata" />
 <action src="enter" type="show" value="" value2="" target="tt_info" />
 <action src="leave" type="hide" value="" value2="" target="tt_info" />
@@ -47,7 +47,7 @@
 </element>
 </element>
 </element>
-<element x="220" y="10" anchor="0" width="32" height="32" id="movemode" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/movemode.png" overurl="images/movemode__o.png" >
+<element x="220" y="10" anchor="0" width="32" height="32" id="movemode" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="skin images/movemode.png" overurl="skin images/movemode__o.png" >
 <action src="click" type="changeviewermode" value="2" value2="" target="$self" />
 <action src="enter" type="show" value="" value2="" target="tt_movemode" />
 <action src="leave" type="hide" value="" value2="" target="tt_movemode" />
@@ -56,7 +56,7 @@
 </element>
 </element>
 </element>
-<element x="250" y="10" anchor="0" width="32" height="32" id="fullscreen" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/fullscreen.png" overurl="images/fullscreen__o.png" >
+<element x="250" y="10" anchor="0" width="32" height="32" id="fullscreen" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="skin images/fullscreen.png" overurl="skin images/fullscreen__o.png" >
 <action src="click" type="tooglefullscreen" value="" value2="" target="$self" />
 <action src="enter" type="show" value="" value2="" target="tt_fullscreen" />
 <action src="leave" type="hide" value="" value2="" target="tt_fullscreen" />
@@ -70,7 +70,7 @@
 <action src="enter" type="show" value="" value2="" target="hstext" />
 <action src="leave" type="hide" value="" value2="" target="hstext" />
 <action src="click" type="gotourl" value="$hu" value2="$ht" target="$self" />
-<element x="-16" y="-16" anchor="0" width="32" height="32" id="hsimage" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/hsimage.png" >
+<element x="-16" y="-16" anchor="0" width="32" height="32" id="hsimage" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="skin images/hsimage.png" >
 </element>
 <element x="-50" y="20" anchor="0" width="100" height="20" id="hstext" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="$hs" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.705882" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="1" >
 </element>
@@ -111,19 +111,19 @@
 <action src="enter" type="show" value="" value2="" target="marker_title" />
 <action src="leave" type="hide" value="" value2="" target="marker_title" />
 <active>
-<element x="0" y="0" anchor="0" width="31" height="31" id="marker_active" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="images/marker_active.png" >
+<element x="0" y="0" anchor="0" width="31" height="31" id="marker_active" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="skin images/marker_active.png" >
 </element>
 </active>
 <normal>
-<element x="0" y="0" anchor="0" width="31" height="32" id="marker_normal" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="images/marker_normal.png" >
+<element x="0" y="0" anchor="0" width="31" height="32" id="marker_normal" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="skin images/marker_normal.png" >
 </element>
 </normal>
 <element x="-60" y="35" anchor="0" width="150" height="20" id="marker_title" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="$ut" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.705882" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="1" >
 </element>
 </element>
-<element x="105" y="0" anchor="0" width="31" height="31" id="marker_active" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="images/marker_active.png" >
+<element x="105" y="0" anchor="0" width="31" height="31" id="marker_active" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="skin images/marker_active.png" >
 </element>
-<element x="140" y="0" anchor="0" width="31" height="32" id="marker_normal" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="images/marker_normal.png" >
+<element x="140" y="0" anchor="0" width="31" height="32" id="marker_normal" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="skin images/marker_normal.png" >
 </element>
 </element>
 </skin>
