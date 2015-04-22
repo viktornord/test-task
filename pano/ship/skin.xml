@@ -1,0 +1,174 @@
+<skin marginleft="0" marginright="0" margintop="0" marginbottom="0" ><element x="-142" y="-65" anchor="7" width="286" height="50" id="controller" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="0" >
+<element x="25" y="-5" anchor="0" width="32" height="32" id="up" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/up.png" overurl="images/up__o.png" >
+<action src="pressed" type="tiltup" value="" value2="" target="$self" />
+</element>
+<element x="25" y="25" anchor="0" width="32" height="32" id="down" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/down.png" overurl="images/down__o.png" >
+<action src="pressed" type="tiltdown" value="" value2="" target="$self" />
+</element>
+<element x="0" y="10" anchor="0" width="32" height="32" id="left" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/left.png" overurl="images/left__o.png" >
+<action src="pressed" type="panleft" value="" value2="" target="$self" />
+</element>
+<element x="50" y="11" anchor="0" width="32" height="32" id="right" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/right.png" overurl="images/right__o.png" >
+<action src="pressed" type="panright" value="" value2="" target="$self" />
+</element>
+<element x="90" y="10" anchor="0" width="32" height="32" id="zoomin" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/zoomin.png" overurl="images/zoomin__o.png" >
+<action src="pressed" type="zoomin" value="" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="tt_zoomin" />
+<action src="leave" type="hide" value="" value2="" target="tt_zoomin" />
+<element x="-55" y="36" anchor="0" width="150" height="18" id="tt_zoomin" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Zoom In" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0x000000" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+<element x="-1" y="-1" anchor="0" width="150" height="18" id="tt_zoomin_white" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Zoom In" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+</element>
+</element>
+<element x="130" y="10" anchor="0" width="32" height="32" id="zoomout" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/zoomout.png" overurl="images/zoomout__o.png" >
+<action src="pressed" type="zoomout" value="" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="tt_zoomout" />
+<action src="leave" type="hide" value="" value2="" target="tt_zoomout" />
+<element x="-55" y="36" anchor="0" width="150" height="18" id="tt_zoomout" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Zoom Out" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+<element x="-1" y="-1" anchor="0" width="150" height="18" id="tt_zoomout_white" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Zoom Out" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+</element>
+</element>
+<element x="170" y="10" anchor="0" width="32" height="32" id="autorotate" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/autorotate.png" overurl="images/autorotate__o.png" >
+<action src="click" type="toogleautorotate" value="" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="tt_autorotate" />
+<action src="leave" type="hide" value="" value2="" target="tt_autorotate" />
+<element x="-65" y="36" anchor="0" width="170" height="18" id="tt_autorotate" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Start/Stop Autorotation" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+<element x="-1" y="-1" anchor="0" width="170" height="18" id="tt_autorotate_white" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Start/Stop Autorotation" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+</element>
+</element>
+<element x="210" y="10" anchor="0" width="32" height="32" id="movemode" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/movemode.png" overurl="images/movemode__o.png" >
+<action src="click" type="changeviewermode" value="2" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="tt_movemode" />
+<action src="leave" type="hide" value="" value2="" target="tt_movemode" />
+<element x="-65" y="36" anchor="0" width="170" height="18" id="tt_movemode" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Change Control Mode" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+<element x="-1" y="-1" anchor="0" width="170" height="18" id="tt_movemode_white" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Change Control Mode" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+</element>
+</element>
+<element x="250" y="10" anchor="0" width="32" height="32" id="fullscreen" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/fullscreen.png" overurl="images/fullscreen__o.png" >
+<action src="click" type="tooglefullscreen" value="" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="tt_fullscreen" />
+<action src="leave" type="hide" value="" value2="" target="tt_fullscreen" />
+<element x="-55" y="36" anchor="0" width="150" height="18" id="tt_fullscreen" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Fullscreen" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+<element x="-1" y="-1" anchor="0" width="150" height="18" id="tt_fullscreen_white" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Fullscreen" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+</element>
+</element>
+</element>
+<element x="350" y="20" anchor="0" width="5" height="5" id="hotspot" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="hotspot" distort="0" distance="500" >
+<action src="enter" type="show" value="" value2="" target="hstext" />
+<action src="leave" type="hide" value="" value2="" target="hstext" />
+<action src="click" type="gotourl" value="$hu" value2="$ht" target="$self" />
+<element x="-16" y="-16" anchor="0" width="32" height="32" id="hsimage" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/hsimage.png" >
+</element>
+<element x="-50" y="20" anchor="0" width="100" height="20" id="hstext" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="$hs" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.705882" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="1" >
+</element>
+</element>
+<element x="-105" y="-30" anchor="4" width="210" height="60" id="loading" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="0" >
+<action src="click" type="hide" value="" value2="" target="$self" />
+<action src="loaded" type="hide" value="" value2="" target="$self" />
+<action src="reload" type="show" value="" value2="" target="$self" />
+<element x="0" y="0" anchor="0" width="210" height="60" id="loadingbg" visible="1" alpha="0.5" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="rectangle" bordercolor="0x000000" borderalpha="1" backgroundcolor="0x000000" backgroundalpha="1" backgroundvisible="1" borderwidth="0" borderradius="20" >
+</element>
+<element x="0" y="0" anchor="0" width="210" height="60" id="loadingbrd" visible="1" alpha="0.5" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="rectangle" bordercolor="0xffffff" borderalpha="1" backgroundcolor="0x000000" backgroundalpha="1" backgroundvisible="0" borderwidth="2" borderradius="18" >
+</element>
+<element x="16" y="12" anchor="0" width="178" height="23" id="loadingtext" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="3" handcursor="0" type="text" text="Loading... $p%" align="0" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="1" >
+</element>
+<element x="15" y="35" anchor="0" width="182" height="13" id="loadingbar" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="3" handcursor="0" type="rectangle" bordercolor="0x808080" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="9" >
+<modifier src="loading" type="scalex" offset="0" factor="1" />
+</element>
+</element>
+<element x="-120" y="-80" anchor="4" width="240" height="140" id="userdata" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="0" >
+<action src="click" type="hide" value="" value2="" target="$self" />
+<element x="0" y="0" anchor="0" width="240" height="140" id="userdatabg" visible="1" alpha="0.5" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="rectangle" bordercolor="0x000000" borderalpha="1" backgroundcolor="0x000000" backgroundalpha="1" backgroundvisible="1" borderwidth="0" borderradius="20" >
+</element>
+<element x="0" y="0" anchor="0" width="240" height="140" id="userdatabrd" visible="1" alpha="0.5" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="rectangle" bordercolor="0xffffff" borderalpha="1" backgroundcolor="0x000000" backgroundalpha="1" backgroundvisible="0" borderwidth="2" borderradius="18" >
+</element>
+<element x="10" y="10" anchor="0" width="220" height="20" id="title" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&lt;b&gt;$ut&lt;/b&gt;" align="0" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="10" y="30" anchor="0" width="220" height="20" id="description" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="$ud" align="0" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="10" y="50" anchor="0" width="220" height="20" id="author" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="$ua" align="0" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="10" y="70" anchor="0" width="220" height="23" id="datetime" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="$ue" align="0" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="1" >
+</element>
+<element x="10" y="110" anchor="0" width="220" height="23" id="copyright" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&amp;#169; $uc" align="0" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="1" >
+</element>
+</element>
+<element x="10" y="10" anchor="0" width="187" height="45" id="hide_template" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="1" >
+<element x="60" y="0" anchor="0" width="5" height="5" id="markertemplate" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="marker" nodeid="" >
+<action src="enter" type="show" value="" value2="" target="marker_title" />
+<action src="leave" type="hide" value="" value2="" target="marker_title" />
+<active>
+<element x="0" y="0" anchor="0" width="31" height="31" id="marker_active" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="images/marker_active.png" >
+</element>
+</active>
+<normal>
+<element x="0" y="0" anchor="0" width="31" height="32" id="marker_normal" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="images/marker_normal.png" >
+</element>
+</normal>
+<element x="-60" y="35" anchor="0" width="150" height="20" id="marker_title" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="$ut" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.705882" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="1" >
+</element>
+</element>
+<element x="105" y="0" anchor="0" width="31" height="31" id="marker_active" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="images/marker_active.png" >
+</element>
+<element x="140" y="0" anchor="0" width="31" height="32" id="marker_normal" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="images/marker_normal.png" >
+</element>
+</element>
+<element x="12" y="78" anchor="0" width="300" height="164" id="Wheel" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" hotspotproxy="Wheel" type="text" text="&lt;b&gt;Wheel Room&lt;/b&gt;&lt;br&gt;In this area, deep inside the ship&#39;s hull, you can see a part of the mechanism used to steer the ship.&lt;p&gt;&lt;b&gt;Stafell y llyw&lt;/b&gt;&lt;br&gt;Yn yr ardal hyn, yn ddwfn yng nghorff y llong, gallwch weld rhan o&#8217;r fecanwaith a ddefnyddiwyd i lywio&#8217;r llong.&lt;/p&gt;" align="0" color="0x000000" bordercolor="0x484848" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="19" wordwrap="1" scrollbar="0" autosize="1" >
+<action src="click" type="tooglevisible" value="" value2="" target="$self" />
+</element>
+<element x="12" y="78" anchor="0" width="300" height="164" id="Food" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" hotspotproxy="Food" type="text" text="&lt;b&gt;Food at Sea&lt;/b&gt;&lt;br&gt;Food was divided in to &quot;wet&quot; and &quot;dry&quot; provisions. Wet provisions included salt beef, pork, suet (beef fat), lime juice and rum. Dry provisions included things like biscuits, beans, peas, flour, rice, sugar, preserved meat and chocolate. Food was carefully stored in casks and drums in holds deep in the ship, making sure the older provisions were on top so everything would be used up in order of freshness. &lt;p&gt;&lt;b&gt;Bwyd ar y m&#244;r&lt;/b&gt;&lt;br&gt;Rhannwyd bwyd mewn i ddarpariaeth &#8216;gwlyb&#8217; a &#8216;sych&#8217;. Roedd darpariaeth gwlyb yn cynnwys cig eidion wedi ei halltu, porc, suet, sudd leim a rym. Roedd darpariaeth sych yn cynnwys bwydydd fel bisgedi, ffa, pys, blawd, reis, siwgr, cig cadw a siocled. Storiwyd y bwyd yn ofalus mewn casgenni a drymiau mewn howldiau yn ddwfn yng nghrombil y llong, gan sicrhau fod y bwydydd hynaf ar ben fel bod popeth yn cael eu defnyddio yn nhrefn eu ffresni.&lt;/p&gt;" align="0" color="0x000000" bordercolor="0x484848" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="19" wordwrap="1" scrollbar="0" autosize="1" >
+<action src="click" type="tooglevisible" value="" value2="" target="$self" />
+</element>
+<element x="12" y="78" anchor="0" width="300" height="164" id="Galley" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" hotspotproxy="Galley" type="text" text="&lt;b&gt;Galley&lt;/b&gt;&lt;br&gt;This is the ship&#39;s galley (kitchen) aboard the World War One warship, HMS Caroline. From this small space over 300 sailors would have been fed.&lt;p&gt;&lt;b&gt;Cegin&lt;/b&gt;&lt;br&gt;Dyma cegin y llong ar long rhyfel y Rhyfel Byd Cyntaf, HMS Caroline. O&#8217;r stafell fach hon byddai dros 300 o forwyr wedi cael eu bwydo.&lt;/p&gt;" align="0" color="0x000000" bordercolor="0x484848" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="19" wordwrap="1" scrollbar="0" autosize="1" >
+<action src="click" type="tooglevisible" value="" value2="" target="$self" />
+</element>
+<element x="12" y="78" anchor="0" width="300" height="164" id="Telegraph" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" hotspotproxy="Telegraph" type="text" text="&lt;b&gt;Telegraph&lt;/b&gt;&lt;br&gt;This telegraph allows the officers to send messages from the ship&#39;s bridge down to the crew in the tiller room to instruct them to adjust the ship&#39;s course. &lt;p&gt;&lt;b&gt;Telegraff&lt;/b&gt;&lt;br&gt;Roedd y telegraff hwn yn caniat&#225;u i swyddogion hala negeseuon o bont y llong lawr i&#8217;r criw yn stafell y llyw gyda chyfarwyddiadau am gwrs y llong.&lt;/p&gt;" align="0" color="0x000000" bordercolor="0x484848" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="19" wordwrap="1" scrollbar="0" autosize="1" >
+<action src="click" type="tooglevisible" value="" value2="" target="$self" />
+</element>
+<element x="12" y="78" anchor="0" width="300" height="164" id="Corridor" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" hotspotproxy="Corridor" type="text" text="&lt;b&gt;Corridor&lt;/b&gt;&lt;br&gt;Here you can see how sailors moved around the ship. Narrow corridors connected cabins and spaces together and metal ladders led down to other decks and storage areas. The water-tight hatches would be closed in an emergency. &lt;p&gt;&lt;b&gt;Coridor&lt;/b&gt;&lt;br&gt;Yma gallwch weld sut byddai morwyr wedi symud o gwmpas y llong. Roedd coridorau cul yn cysylltu cabanau a stafelloedd gyda&#8217;i gilydd ac roedd ysgolion metel yn arwain lawr i ddeciau eraill a mannau&#8217;r storfeydd. Byddai&#8217;r hatshus dwrglos yn cael eu cau mewn argyfwng.&lt;/p&gt;" align="0" color="0x000000" bordercolor="0x484848" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="19" wordwrap="1" scrollbar="0" autosize="1" >
+<action src="click" type="tooglevisible" value="" value2="" target="$self" />
+</element>
+<element x="12" y="78" anchor="0" width="300" height="164" id="LivingQuarters" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" hotspotproxy="LivingQuarters" type="text" text="&lt;b&gt;Living quarters on a ship&lt;/b&gt;&lt;br&gt; Most sailors on a ship would sleep in hammocks hung from metal rings in the ceiling. Officers slept separately but most still in hammocks. Only the captain and the highest ranking officers had cabins of their own.&lt;p&gt;&lt;b&gt;Stafelloedd byw ar long&lt;/b&gt;&lt;br&gt;Byddai&#8217;r rhan fwyaf o forwyr ar long wedi cysgu mewn gwely crog a fyddai wedi cael eu hongian o&#8217;r nenfwd. Roedd swyddogion yn cysgu ar wah&#226;n ond y rhan fwyaf o hyd mewn gwelyau crog. Dim ond y capten a&#8217;r swyddogion uwch fyddai wedi berchen ar gabanau eu hunain.&lt;/p&gt;" align="0" color="0x000000" bordercolor="0x484848" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="19" wordwrap="1" scrollbar="0" autosize="1" >
+<action src="click" type="tooglevisible" value="" value2="" target="$self" />
+</element>
+<element x="12" y="78" anchor="0" width="300" height="164" id="Crew" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" hotspotproxy="Crew" type="text" text="&lt;b&gt;Roles in the Navy&lt;/b&gt;&lt;br&gt;The most junior job on a ship was the deck hand. The deck hands helped the more experienced sailors who were known as ordinary seamen, or able seamen if they had more than two years&#39; experience. Above the able seamen were the midshipmen and above them the officer ranks. The officer ranks included captain, the man who controlled the ship, and admiral, the man who commanded many ships or even the whole navy. &lt;p&gt;&lt;b&gt;Swyddogaethau yn y Llynges&lt;/b&gt;&lt;br&gt;Y swydd isaf ar long fyddai&#8217;r morwr cyffredin. Roedd y morwyr cyffredin yn helpu&#8217;r morwyr mwy profiadol a elwir yn forwyr cymwys, os oedd ganddynt mwy na dwy flynedd o brofiad. Uwchben y morwyr cymwys oedd y canol-longwyr ac uwch eu pennau nhw oedd y swyddogion. Roedd y swyddogion yn cynnwys y capten, y person oedd yn gyfrifol am y llong, a&#8217;r llyngesydd, y person oedd yn gyfrifol am nifer o longau, neu&#8217;r llynges i gyd.&lt;/p&gt;" align="0" color="0x000000" bordercolor="0x484848" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="19" wordwrap="1" scrollbar="0" autosize="1" >
+<action src="click" type="tooglevisible" value="" value2="" target="$self" />
+</element>
+<element x="12" y="78" anchor="0" width="300" height="164" id="Bridge" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" hotspotproxy="Bridge" type="text" text="&lt;b&gt;Bridge&lt;/b&gt;&lt;br&gt;This is the bridge of HMS Caroline. The ship was commanded from this location.&lt;p&gt;&lt;b&gt;Y Bont&lt;/b&gt;&lt;br&gt;Dyma bont HMS Caroline. Rheolwyd y llong o&#8217;r lleoliad hyn.&lt;/p&gt;" align="0" color="0x000000" bordercolor="0x484848" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="19" wordwrap="1" scrollbar="0" autosize="1" >
+<action src="click" type="tooglevisible" value="" value2="" target="$self" />
+</element>
+<element x="12" y="78" anchor="0" width="300" height="164" id="Compass" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" hotspotproxy="Compass" type="text" text="&lt;b&gt;Compass&lt;/b&gt;&lt;br&gt;The ship&#39;s compass showed the crew which direction they were heading in and they used it to guide the ship on the correct course. &lt;p&gt;&lt;b&gt;Cwmpawd&lt;/b&gt;&lt;br&gt;Roedd cwmpawd y llong yn dangos i&#8217;r criw i ba gyfeiriad roeddent yn mynd a defnyddiwyd hi i dywys y llong ar y trywydd cywir.&lt;/p&gt;" align="0" color="0x000000" bordercolor="0x484848" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="19" wordwrap="1" scrollbar="0" autosize="1" >
+<action src="click" type="tooglevisible" value="" value2="" target="$self" />
+</element>
+<element x="12" y="78" anchor="0" width="300" height="164" id="Communication" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" hotspotproxy="Communication" type="text" text="&lt;b&gt;Communication&lt;/b&gt;&lt;br&gt;Before telephones, ships had a number of different ways to communicate with one another. If the ships were quite close together then semaphore could be used. With semaphore, a message is passed by a crew member holding two flags, one in either hand. By holding the two flags in different positions, each meaning a different command, one ship can communicate with another. A second option was morse code. Morse code could be done using a lamp, so could be seen from further away. Each letter could be signalled using a combination of short and long bursts of light.&lt;p&gt;&lt;b&gt;Cyfathrebu&lt;/b&gt;&lt;br&gt;Cyn teleffonau, roedd llongau&#8217;n defnyddio nifer o ffyrdd gwahanol i gyfathrebu gyda&#8217;i gilydd. Os oedd y llongau&#8217;n agos i&#8217;w gilydd byddai semaffor yn gallu cael ei ddefnyddio. Gyda semaffor, roedd negeseuon yn cael eu danfon gan aelod o&#8217;r criw drwy ddal dwy faner, un yn y naill law. Drwy ddal y baneri mewn safleoedd gwahanol, roedd negeseuon gwahanol yn cael eu danfon ac yn caniat&#225;u i longau allu cyfathrebu gyda&#8217;i gilydd. Opsiwn arall oedd Cod Morse. Gellid ddefnyddio&#8217;r Cod Morse drwy ddefnyddio lamp, a fyddai&#8217;n caniat&#225;u i&#8217;r neges gael ei weld yn bell i ffwrdd. Gyrrwyd pob llythyren drwy ddefnyddio cyfuniad o fyrstiau byr a hir o oleuni.&lt;/p&gt;" align="0" color="0x000000" bordercolor="0x484848" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="19" wordwrap="1" scrollbar="0" autosize="1" >
+<action src="click" type="tooglevisible" value="" value2="" target="$self" />
+</element>
+<element x="12" y="78" anchor="0" width="300" height="164" id="ShellStore" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" hotspotproxy="ShellStore" type="text" text="&lt;b&gt;Shell Store&lt;/b&gt;&lt;br&gt;This the shell store, shells were stored here for use in HMS Caroline&#39;s guns.&lt;p&gt;&lt;b&gt;Storfa&#8217;r Tanbelenni&lt;/b&gt;&lt;br&gt;Dyma storfa&#8217;r tanbelenni. Storiwyd tanbelenni magnelau HMS Caroline yma.&lt;/p&gt;" align="0" color="0x000000" bordercolor="0x484848" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="19" wordwrap="1" scrollbar="0" autosize="1" >
+<action src="click" type="tooglevisible" value="" value2="" target="$self" />
+</element>
+<element x="12" y="78" anchor="0" width="300" height="164" id="Guns" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" hotspotproxy="Guns" type="text" text="&lt;b&gt;HMS Caroline&#39;s guns&lt;/b&gt;&lt;br&gt;HMS Caroline&#39;s main armament was a pair of six inch guns. These guns had a range of over 19,000 metres - over 11 miles.  Larger battleships were armed with guns that could fire at a range of nearly 20 miles.&lt;p&gt;&lt;b&gt;Magnelau HMS Caroline&lt;/b&gt;&lt;br&gt;Prif arf HMS Caroline oedd p&#226;r o fagnelau chwe modfedd. Roedd gan y magnelau yma bellter o dros 19,000 o fetrau &#8211; dros 11 milltir. Arfogwyd cadlongau mwy gan fagnelau oedd yn gallu tanio hyd at 20 milltir.&lt;/p&gt;" align="0" color="0x000000" bordercolor="0x484848" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="19" wordwrap="1" scrollbar="0" autosize="1" >
+<action src="click" type="tooglevisible" value="" value2="" target="$self" />
+</element>
+<element x="12" y="78" anchor="0" width="300" height="164" id="Torpedoes" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" hotspotproxy="Torpedoes" type="text" text="&lt;b&gt;Torpedoes&lt;/b&gt;&lt;br&gt;HMS Caroline was also armed with torpedoes. Torpedoes are underwater explosives. They are launched out of torpedo tubes and move through the water under their own power. By hitting their target below the water line, torpedoes can cause catastrophic damage to a ship&#39;s hull, causing the ship to sink. &lt;br&gt;&lt;br&gt;&lt;b&gt;Torpidos&lt;/b&gt;&lt;br&gt;Arfogwyd HMS Caroline hefyd gan dorpidos. Roedd torpidos yn ffrwydron tanfor. Maen nhw&#8217;n cael eu lansio mas o diwbiau torpido ac yn symud trwy&#8217;r d&#373;r. Drwy taro&#8217;u targed o dan arwyneb y d&#373;r, roedd torpidos yn gallu achosi difrod niweidiol tu hwnt i gorff llong gan achosi i&#8217;r llong suddo." align="0" color="0x000000" bordercolor="0x484848" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="19" wordwrap="1" scrollbar="0" autosize="1" >
+<action src="click" type="tooglevisible" value="" value2="" target="$self" />
+</element>
+<element x="-38" y="-40" anchor="8" width="29" height="24" id="Box 5" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="5" handcursor="0" hotspotproxy="Box5" type="text" text="Shell Store/Storfa&#8217;r Tanbelenni" align="0" color="0xffffff" bordercolor="0xffffff" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="2" borderradius="20" wordwrap="0" scrollbar="0" autosize="1" >
+<action src="click" type="gotonext" value="{node8}" value2="" target="" />
+</element>
+<element x="-38" y="-72" anchor="8" width="29" height="24" id="Box 4" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="5" handcursor="0" hotspotproxy="Box4" type="text" text="Wheel Room/Stafell Y Llyw" align="1" color="0xffffff" bordercolor="0xffffff" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="2" borderradius="20" wordwrap="0" scrollbar="0" autosize="1" >
+<action src="click" type="gotonext" value="{node7}" value2="" target="" />
+</element>
+<element x="-38" y="-137" anchor="8" width="29" height="24" id="Box 1" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="5" handcursor="0" hotspotproxy="Box1" type="text" text="Bridge/Y Bont" align="1" color="0xffffff" bordercolor="0xffffff" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="2" borderradius="20" wordwrap="0" scrollbar="0" autosize="1" >
+<action src="click" type="gotonext" value="{node4}" value2="" target="" />
+</element>
+<element x="-38" y="-169" anchor="8" width="29" height="24" id="Box 3" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="5" handcursor="0" hotspotproxy="Box3" type="text" text="Galley/Cegin" align="1" color="0xffffff" bordercolor="0xffffff" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="2" borderradius="20" wordwrap="0" scrollbar="0" autosize="1" >
+<action src="click" type="gotonext" value="{node6}" value2="" target="" />
+</element>
+<element x="-39" y="-104" anchor="8" width="29" height="24" id="Box 2" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="5" handcursor="0" hotspotproxy="Box2" type="text" text="Corridor/Coridor" align="1" color="0xffffff" bordercolor="0xffffff" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="2" borderradius="20" wordwrap="0" scrollbar="0" autosize="1" >
+<action src="click" type="gotonext" value="{node5}" value2="" target="" />
+</element>
+</skin>

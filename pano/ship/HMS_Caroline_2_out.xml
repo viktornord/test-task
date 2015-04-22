@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node4">
+  <panorama id="node4" hideabout="1">
+    <view fovmode="3" pannorth="0">
+      <start pan="0" fov="96.4183" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xffffff" bordercolor="0xffffff" border="1" textcolor="0xffffff" background="0" borderalpha="1" borderradius="11" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="&lt;b>Compass&lt;/b>&lt;br>&lt;b>Cwmpawd&lt;/b>" target="" pan="3.02101" skinid="simplex2" url="" id="Compass" tilt="-23.6037"/>
+      <hotspot title="&lt;b>Telegraph&lt;/b>&lt;br>&lt;b>Telegraff&lt;/b>" target="" pan="76.5882" skinid="simplex2" url="" id="Telegraph" tilt="-29.9329"/>
+      <hotspot title="&lt;b>Communication&lt;/b>&lt;br>&lt;b>Cyfathrebu&lt;/b>" target="" pan="-18.4105" skinid="simplex2" url="" id="Communication" tilt="-21.4099"/>
+      <hotspot title="&lt;b>Compass&lt;/b>&lt;br>&lt;b>Cwmpawd&lt;/b>" target="" pan="-121.655" skinid="simplex2" url="" id="Compass" tilt="-6.57037"/>
+      <hotspot title="&lt;b>Bridge&lt;/b>&lt;br>&lt;b>Y Bont&lt;/b>" target="" pan="38.6943" skinid="simplex2" url="" id="Bridge" tilt="8.45089"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/01-bridge_o_o_0.jpg" prev5url="images/01-bridge_o_o_preview_5.jpg" prev4url="images/01-bridge_o_o_preview_4.jpg" prev3url="images/01-bridge_o_o_preview_3.jpg" prev2url="images/01-bridge_o_o_preview_2.jpg" prev1url="images/01-bridge_o_o_preview_1.jpg" prev0url="images/01-bridge_o_o_preview_0.jpg" tile5url="images/01-bridge_o_o_5.jpg" tilesize="1440" tile4url="images/01-bridge_o_o_4.jpg" tile3url="images/01-bridge_o_o_3.jpg" tilescale="1.006944" tile2url="images/01-bridge_o_o_2.jpg" tile1url="images/01-bridge_o_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <altinput tile0url="images/01-bridge_o_o_960_0.jpg" screensize="1024" tile5url="images/01-bridge_o_o_960_5.jpg" tilesize="960" tile4url="images/01-bridge_o_o_960_4.jpg" tile3url="images/01-bridge_o_o_960_3.jpg" tilescale="1.006944" tile2url="images/01-bridge_o_o_960_2.jpg" tile1url="images/01-bridge_o_o_960_1.jpg"/>
+    <altinput tile0url="images/01-bridge_o_o_400_0.jpg" screensize="500" tile5url="images/01-bridge_o_o_400_5.jpg" tilesize="400" tile4url="images/01-bridge_o_o_400_4.jpg" tile3url="images/01-bridge_o_o_400_3.jpg" tilescale="1.006944" tile2url="images/01-bridge_o_o_400_2.jpg" tile1url="images/01-bridge_o_o_400_1.jpg"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node5" hideabout="1">
+    <view fovmode="3" pannorth="0">
+      <start pan="0" fov="96.4183" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xffffff" bordercolor="0xffffff" border="1" textcolor="0xffffff" background="0" borderalpha="1" borderradius="11" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="&lt;b>Corridor&lt;/b>&lt;br>&lt;b>Coridor&lt;/b>" target="" pan="-1.27929" skinid="simplex2" url="" id="Corridor" tilt="-14.0758"/>
+      <hotspot title="&lt;b>Living quarters on a ship&lt;/b>&lt;br>&lt;b>Stafelloedd byw ar long&lt;/b>" target="" pan="112.1" skinid="simplex2" url="" id="LivingQuarters" tilt="-11.1027"/>
+      <hotspot title="&lt;b>Roles in the Navy&lt;/b>&lt;br>&lt;b>Swyddogaethau yn y Llynges&lt;/b>" target="" pan="-106.126" skinid="simplex2" url="" id="Crew" tilt="-9.57729"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/02-corridor_o_o_0.jpg" prev5url="images/02-corridor_o_o_preview_5.jpg" prev4url="images/02-corridor_o_o_preview_4.jpg" prev3url="images/02-corridor_o_o_preview_3.jpg" prev2url="images/02-corridor_o_o_preview_2.jpg" prev1url="images/02-corridor_o_o_preview_1.jpg" prev0url="images/02-corridor_o_o_preview_0.jpg" tile5url="images/02-corridor_o_o_5.jpg" tilesize="1440" tile4url="images/02-corridor_o_o_4.jpg" tile3url="images/02-corridor_o_o_3.jpg" tilescale="1.006944" tile2url="images/02-corridor_o_o_2.jpg" tile1url="images/02-corridor_o_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <altinput tile0url="images/02-corridor_o_o_960_0.jpg" screensize="1024" tile5url="images/02-corridor_o_o_960_5.jpg" tilesize="960" tile4url="images/02-corridor_o_o_960_4.jpg" tile3url="images/02-corridor_o_o_960_3.jpg" tilescale="1.006944" tile2url="images/02-corridor_o_o_960_2.jpg" tile1url="images/02-corridor_o_o_960_1.jpg"/>
+    <altinput tile0url="images/02-corridor_o_o_400_0.jpg" screensize="500" tile5url="images/02-corridor_o_o_400_5.jpg" tilesize="400" tile4url="images/02-corridor_o_o_400_4.jpg" tile3url="images/02-corridor_o_o_400_3.jpg" tilescale="1.006944" tile2url="images/02-corridor_o_o_400_2.jpg" tile1url="images/02-corridor_o_o_400_1.jpg"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node6" hideabout="1">
+    <view fovmode="3" pannorth="0">
+      <start pan="0" fov="96.4183" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xffffff" bordercolor="0xffffff" border="1" textcolor="0xffffff" background="0" borderalpha="1" borderradius="11" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="&lt;b>Galley&lt;/b>&lt;br>&lt;b>Cegin&lt;/b>" target="" pan="18.6362" skinid="simplex2" url="" id="Galley" tilt="-1.44408"/>
+      <hotspot title="&lt;b>Food at Sea&lt;/b>&lt;br>&lt;b>Bwyd ar y môr&lt;/b>" target="" pan="-131.801" skinid="simplex2" url="" id="Food" tilt="-10.5677"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/03-galley_o_o_0.jpg" prev5url="images/03-galley_o_o_preview_5.jpg" prev4url="images/03-galley_o_o_preview_4.jpg" prev3url="images/03-galley_o_o_preview_3.jpg" prev2url="images/03-galley_o_o_preview_2.jpg" prev1url="images/03-galley_o_o_preview_1.jpg" prev0url="images/03-galley_o_o_preview_0.jpg" tile5url="images/03-galley_o_o_5.jpg" tilesize="1440" tile4url="images/03-galley_o_o_4.jpg" tile3url="images/03-galley_o_o_3.jpg" tilescale="1.006944" tile2url="images/03-galley_o_o_2.jpg" tile1url="images/03-galley_o_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <altinput tile0url="images/03-galley_o_o_960_0.jpg" screensize="1024" tile5url="images/03-galley_o_o_960_5.jpg" tilesize="960" tile4url="images/03-galley_o_o_960_4.jpg" tile3url="images/03-galley_o_o_960_3.jpg" tilescale="1.006944" tile2url="images/03-galley_o_o_960_2.jpg" tile1url="images/03-galley_o_o_960_1.jpg"/>
+    <altinput tile0url="images/03-galley_o_o_400_0.jpg" screensize="500" tile5url="images/03-galley_o_o_400_5.jpg" tilesize="400" tile4url="images/03-galley_o_o_400_4.jpg" tile3url="images/03-galley_o_o_400_3.jpg" tilescale="1.006944" tile2url="images/03-galley_o_o_400_2.jpg" tile1url="images/03-galley_o_o_400_1.jpg"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node7" hideabout="1">
+    <view fovmode="3" pannorth="0">
+      <start pan="0" fov="96.4183" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xffffff" bordercolor="0xffffff" border="1" textcolor="0xffffff" background="0" borderalpha="1" borderradius="11" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="&lt;b>Wheel Room&lt;/b>&lt;br>&lt;b>Stafell y llyw&lt;/b>" target="" pan="5.78337" skinid="simplex2" url="" id="Wheel" tilt="-20.0067"/>
+      <hotspot title="&lt;b>Telegraph&lt;/b>&lt;br>&lt;b>Telegraff&lt;/b>" target="" pan="-19.0593" skinid="simplex2" url="" id="Telegraph" tilt="10.2611"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/04-tiller-flat_o_o_0.jpg" prev5url="images/04-tiller-flat_o_o_preview_5.jpg" prev4url="images/04-tiller-flat_o_o_preview_4.jpg" prev3url="images/04-tiller-flat_o_o_preview_3.jpg" prev2url="images/04-tiller-flat_o_o_preview_2.jpg" prev1url="images/04-tiller-flat_o_o_preview_1.jpg" prev0url="images/04-tiller-flat_o_o_preview_0.jpg" tile5url="images/04-tiller-flat_o_o_5.jpg" tilesize="1440" tile4url="images/04-tiller-flat_o_o_4.jpg" tile3url="images/04-tiller-flat_o_o_3.jpg" tilescale="1.006944" tile2url="images/04-tiller-flat_o_o_2.jpg" tile1url="images/04-tiller-flat_o_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <altinput tile0url="images/04-tiller-flat_o_o_960_0.jpg" screensize="1024" tile5url="images/04-tiller-flat_o_o_960_5.jpg" tilesize="960" tile4url="images/04-tiller-flat_o_o_960_4.jpg" tile3url="images/04-tiller-flat_o_o_960_3.jpg" tilescale="1.006944" tile2url="images/04-tiller-flat_o_o_960_2.jpg" tile1url="images/04-tiller-flat_o_o_960_1.jpg"/>
+    <altinput tile0url="images/04-tiller-flat_o_o_400_0.jpg" screensize="500" tile5url="images/04-tiller-flat_o_o_400_5.jpg" tilesize="400" tile4url="images/04-tiller-flat_o_o_400_4.jpg" tile3url="images/04-tiller-flat_o_o_400_3.jpg" tilescale="1.006944" tile2url="images/04-tiller-flat_o_o_400_2.jpg" tile1url="images/04-tiller-flat_o_o_400_1.jpg"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node8" hideabout="1">
+    <view fovmode="3" pannorth="0">
+      <start pan="0" fov="91.3085" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xffffff" bordercolor="0xffffff" border="1" textcolor="0xffffff" background="0" borderalpha="1" borderradius="11" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="&lt;b>Shell Store&lt;/b>&lt;br>&lt;b>Storfa’r Tanbelenni&lt;/b>" target="" pan="-118.356" skinid="simplex2" url="" id="ShellStore" tilt="-19.5646"/>
+      <hotspot title="&lt;b>HMS Caroline's guns&lt;/b>&lt;br>&lt;b>Magnelau HMS Caroline&lt;/b>" target="" pan="-8.30259" skinid="simplex2" url="" id="Guns" tilt="10.8031"/>
+      <hotspot title="&lt;b>Torpedoes&lt;/b>&lt;br>&lt;b>Torpidos&lt;/b>" target="" pan="172.749" skinid="simplex2" url="" id="Torpedoes" tilt="-4.92352"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/05-shell-room_o_o_0.jpg" prev5url="images/05-shell-room_o_o_preview_5.jpg" prev4url="images/05-shell-room_o_o_preview_4.jpg" prev3url="images/05-shell-room_o_o_preview_3.jpg" prev2url="images/05-shell-room_o_o_preview_2.jpg" prev1url="images/05-shell-room_o_o_preview_1.jpg" prev0url="images/05-shell-room_o_o_preview_0.jpg" tile5url="images/05-shell-room_o_o_5.jpg" tilesize="1440" tile4url="images/05-shell-room_o_o_4.jpg" tile3url="images/05-shell-room_o_o_3.jpg" tilescale="1.006944" tile2url="images/05-shell-room_o_o_2.jpg" tile1url="images/05-shell-room_o_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <altinput tile0url="images/05-shell-room_o_o_960_0.jpg" screensize="1024" tile5url="images/05-shell-room_o_o_960_5.jpg" tilesize="960" tile4url="images/05-shell-room_o_o_960_4.jpg" tile3url="images/05-shell-room_o_o_960_3.jpg" tilescale="1.006944" tile2url="images/05-shell-room_o_o_960_2.jpg" tile1url="images/05-shell-room_o_o_960_1.jpg"/>
+    <altinput tile0url="images/05-shell-room_o_o_400_0.jpg" screensize="500" tile5url="images/05-shell-room_o_o_400_5.jpg" tilesize="400" tile4url="images/05-shell-room_o_o_400_4.jpg" tile3url="images/05-shell-room_o_o_400_3.jpg" tilescale="1.006944" tile2url="images/05-shell-room_o_o_400_2.jpg" tile1url="images/05-shell-room_o_o_400_1.jpg"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+</tour>
